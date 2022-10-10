@@ -1,0 +1,18 @@
+﻿<Window x:Class="Amenoma.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Amenoma"
+        mc:Ignorable="d"
+        Title="关于" Height="480" Width="360" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="「天目」 -- Amenoma" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" Margin="0,10,0,0" FontWeight="Bold"/>
+        <Label Content="1.0.0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0"/>
+        <Label Content="{DynamicResource IntroductionContent}" HorizontalAlignment="Center" Margin="0,65,0,0" VerticalAlignment="Top" Foreground="#FF4B4B4B"/>
+        <Label Content="{DynamicResource CopyrightNotice}" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="{DynamicResource License}" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox Margin="10,217,10,10" IsReadOnly="True" IsUndoEnabled="False" TextWrapping="Wrap" Text="MIT License&#xD;&#xA;        &#xD;&#xA;Copyright (c) 2021-2022 Longhao Li &amp; 夏至&#xD;&#xA;&#xD;&#xA;Permission is hereby granted, free of charge, to any person obtaining a copy&#xD;&#xA;of this software and associated documentation files (the &quot;Software&quot;), to deal&#xD;&#xA;in the Software without restriction, including without limitation the rights&#xD;&#xA;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xD;&#xA;copies of the Software, and to permit persons to whom the Software is&#xD;&#xA;furnished to do so, subject to the following conditions:&#xD;&#xA;&#xD;&#xA;The above copyright notice and this permission notice shall be included in all&#xD;&#xA;copies or substantial portions of the Software.&#xD;&#xA;&#xD;&#xA;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#xD;&#xA;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#xD;&#xA;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#xD;&#xA;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#xD;&#xA;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&#xD;&#xA;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&#xD;&#xA;SOFTWARE." />
+        <TextBox Margin="10,120,10,268" IsReadOnly="True" IsUndoEnabled="False" TextWrapping="Wrap" Text="{DynamicResource CopyrightNoticeContent}" />
+    </Grid>
+</Window>

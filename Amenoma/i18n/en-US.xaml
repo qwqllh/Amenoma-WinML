@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="About">About</sys:String>
+    <sys:String x:Key="IntroductionContent">The essence of Amenoma Art is to have the patience to move mountains and unrelenting willpower.</sys:String>
+    <sys:String x:Key="CopyrightNotice">Copyright Notice</sys:String>
+    <sys:String x:Key="CopyrightNoticeContent">All resources related to Genshin Impact are owned by miHoYo. This software is not official software. This software is developed and maintained by the community, and has nothing to do with miHoYo.</sys:String>
+    <sys:String x:Key="License">License</sys:String>
+    <sys:String x:Key="Artifacts">Artifacts</sys:String>
+    <sys:String x:Key="CaptureWindow">Capture Window</sys:String>
+    <sys:String x:Key="CharacterDevelopmentItem">Character Development Items</sys:String>
+    <sys:String x:Key="ScanDelay">Scan Delay</sys:String>
+    <sys:String x:Key="ExportFormat">Export Format</sys:String>
+    <sys:String x:Key="FormatConverter">Format Converter</sys:String>
+    <sys:String x:Key="Help">Help</sys:String>
+    <sys:String x:Key="HelpContent">Scan Artifacts
+
+1. Adjust the resolution of the Genshin Impact to 1600 * 900 (or other resolutions that meet 16:9)
+2. Open Inventory - Artifacts.
+3. Capture the window.
+4. Adjust scanning options.
+5. Start scanning (mouse middle click to interrupt).
+
+Scan results are stored in 
+ artifacts.genshinart.json (Mona-uranai)
+ artifacts.genmocalc.json (Genmo Calculator)
+ artifacts.GOOD.json(Genshin Optimizer)
+
+Scan Materials
+
+Resolution -- Inventory -- Options -- Start!
+
+Result will be stored as 
+materials.GOOD.json
+
+More Help / Q&amp;A 
+ https://github.com/daydreaming666/Amenoma/blob/main/README_en.md</sys:String>
+    <sys:String x:Key="Level">Level</sys:String>
+    <sys:String x:Key="Log">Log</sys:String>
+    <sys:String x:Key="Materials">Materials</sys:String>
+    <sys:String x:Key="Maximum">Maximum</sys:String>
+    <sys:String x:Key="Minimum">Minimum</sys:String>
+    <sys:String x:Key="Options">Options</sys:String>
+    <sys:String x:Key="Settings">Settings</sys:String>
+    <sys:String x:Key="OpenExportedFile">Open the Exported File</sys:String>
+    <sys:String x:Key="Stars">Stars</sys:String>
+    <sys:String x:Key="StartScanning">Start Scanning</sys:String>
+    <sys:String x:Key="SupportedWebsites">Supported Websites</sys:String>
+    <sys:String x:Key="TipsContent">Tips: Middle click to stop</sys:String>
+</ResourceDictionary>
